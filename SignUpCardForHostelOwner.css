@@ -1,0 +1,113 @@
+/* SignUpCardForHostelOwner.css */
+
+.signup-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+/* Makerere Image css */
+  .makImage {
+    width: 180px;
+    height: 150px;
+  }
+  
+/* Sign into Hostel Management App */
+  .signup-card h2 {
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #018847;
+  }
+
+  .ownername {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+/* Input fields */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+/* CSS for aligning elements to the left margin of the card */
+.ownerselectoptions label{
+  font-size: large;
+}
+  .ownerselectoptions {
+    display: flex;
+    align-items: center;
+  }
+
+  .ownernationality {
+    display: flex;
+    align-items: center;
+  }
+
+  .ownernationality .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .ownernationality select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+
+/* Style the dropdown when it's open */
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px 0 #007bff;
+  }
+  
+/* Next button */
+  .hostelNextButton {
+    margin-left: auto;
+    display: block;
+    /* text-decoration: none; */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 50px;
+  }
+  
+  .hostelNextButton:hover {
+    background-color: #338b38;
+  }
+  
+  .hostelNextButton:active {
+    background-color: #227225;
+  }
+  
+/* Footer link */
+  .signUpFooter {
+    text-decoration: none;
+    color: grey;
+  }

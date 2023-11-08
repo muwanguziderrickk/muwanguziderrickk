@@ -1,0 +1,95 @@
+/* SignInCard.css */
+
+.signin-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+/* Sign into Hostel Management App */
+  .signin-card h2 {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #018847;
+  }
+  
+/* * */
+.star{
+    color: #FF0000;
+    }
+
+/* Account username */
+    .username{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    }
+/* Account password */
+    .password{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signInButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 50px;
+  }
+  
+  .signInButton:hover {
+    background-color: #338b38;
+  }
+  
+  .signInButton:active {
+    background-color: #227225;
+  }
+  
+/* Makerere Image css */
+    .makImage{
+    width: 180px;
+    height: 150px;
+    }
+
+    .signInFooter{
+        text-decoration: none;
+        color: grey;
+    }

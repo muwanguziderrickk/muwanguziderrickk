@@ -1,0 +1,37 @@
+/* AboutPage.css */
+
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+    min-height: 100vh;
+  }
+  
+  .about-content {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .about-content h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

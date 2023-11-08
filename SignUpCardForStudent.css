@@ -1,0 +1,110 @@
+/* SignUpCardForStudent.css */
+
+.signup-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Sign into Hostel Management App */
+  .signup-card h2 {
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #018847;
+  }
+
+  .studentname {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .studentpassword{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .studentselectoptions{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Input fields */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Sign Up button */
+  .signUpButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 50px;
+  }
+  
+  .signUpButton:hover {
+    background-color: #338b38;
+  }
+  
+  .signUpButton:active {
+    background-color: #227225;
+  }
+  
+  /* Makerere Image css */
+  .makImage {
+    width: 180px;
+    height: 150px;
+  }
+  
+  /* Footer link */
+  .signUpFooter {
+    text-decoration: none;
+    color: grey;
+  }
+  
+/* Style the select dropdown */
+  select {
+    width: 217px; /* Set the width of the dropdown */
+    /* width: 100%; */
+    padding: 10px; /* Add some padding */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    /* appearance: none; Remove default arrow icon in some browsers */
+    background-color: #f2f2f2; /* Set background color */
+    cursor: pointer; /* Set cursor style */
+  }
+
+/* Style the dropdown when it's open */
+    select:focus {
+      outline: none; /* Remove the default focus outline */
+      border-color: #007bff; /* Change border color on focus */
+      box-shadow: 0 0 5px 0 #007bff; /* Add a subtle box-shadow on focus */
+    }

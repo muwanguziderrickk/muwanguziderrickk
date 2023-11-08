@@ -1,0 +1,42 @@
+/* YourComponent.css */
+
+/* Styles for the input box */
+.searchbox {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Styles for the map container */
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+.exit-button{
+  float: inline-end;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.exit-button:hover {
+  background-color: #338b38;
+}
+.exit-button:active {
+  background-color: #227225;
+}
